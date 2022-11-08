@@ -1,0 +1,120 @@
+<!-- 
+    Autor: Jakoba Gonzalez Marcaida
+    Asignatura: LMSGI
+    UD_TareaEvaluación: 01_TEv02
+    Descripción: Página 'conoceme' de un currículum web estático con formato a través de estilos CSS.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            img {
+                border-radius: 8%;
+                width: 250px;
+                height: 150px;
+                margin: 5px;
+            }
+
+            td {
+                text-align: center;
+                color: rgb(4, 99, 94);
+                font-weight: bold;
+            }
+
+            video {
+                border-radius: 12%;
+                width: 250px;
+                height: 150px;
+                margin: 5px;
+            }
+
+            li {
+                color: black;
+            }
+
+            p {
+                margin-top: 10vh;
+            }
+
+            h3 {
+                color: rgb(4, 99, 94);
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <ul class="topnav">
+            <li><a href="conoceme.html">CON&Oacute;CEME</a></li>
+            <li><a href="exp_ayp.html">EXPERIENCIA ACAD&Eacute;MICA Y PROFESIONAL</a></li>
+            <li><a href="index.html">INICIO</a></li> 
+        </ul>  
+
+        <!-- Bloque izquierdo de la página -->
+        <div class="column60">
+            <h3>ASPIRACIONES</h3>
+            <!-- Aspiraciones y aficiones representadas por medio de dos tablas -->
+            <table>
+                <tr>
+                    <td><img src="recursos/17828.jpg" alt="Innovador y creativo"></td>
+                    <td><img src="recursos/43168.jpg" alt="Referente en el sector"></td>
+                    <td><img src="recursos/20945347.jpg" alt="Conocimientos"></td>
+                </tr>
+                <tr>
+                    <td>Ser un profesinal innovador y creativo</td>
+                    <td>Ser un referente en mi sector</td>
+                    <td>Ampliar mis conocimientos</td>
+                </tr>
+            </table>
+            <h3>AFICIONES</h3>
+            <table>
+                <tr>
+                    <td><video autoplay muted loop><source src="recursos/rugbyvideo.mp4" type="video/mp4" alt="Video Rugby"></td>
+                    <td><video autoplay muted loop><source src="recursos/surfvideo.MP4" type="video/mp4" alt="Video Surf"></td>
+                    <td><video autoplay muted loop><source src="recursos/viajarvideo.mp4" type="video/mp4" alt="Video viajar"></td>
+                </tr>
+                <tr>
+                    <td>Rugby</td>
+                    <td>Surf</td>
+                    <td>Viajar</td>
+                </tr>
+            </table>
+            
+            <!-- 
+                Bloque derecho de la página 
+                Para eliminar el espacio entre los inline-blocks, las etiquetas deben ir seguidas
+                sin espacios entre ellas
+                https://uxengineer.com/inline-block-elements-100-percent-width/
+            -->
+        </div><div class="column40">
+            <h3 style="color: black;">DATOS PERSONALES</h3>
+            <!-- Lista desordenada con los datos personales -->
+            <ul>
+                <li>Nombre</li>
+                Iakoba 
+                <li>Direcci&oacute;n</li>
+                <address>Xxx</address>
+                <address>Xxx</address>
+                <li>Tel&eacute;fono</li>
+                666 999 666
+                <li>Mail</li>
+                
+                <!-- Atributo para mandar el mail desde el gestor de correo predeterminado -->
+                <a href="iakoba@example.es">iakoba@example.es</a>
+            </ul>
+            <p style="font-size: 14pt;">
+                Tengo una amplia experiencia laboral.<br>
+                Soy sincero, reponsable, comprometido<br>
+                y trabajo bien en equipo, valores que<br>
+                aprend&iacute; desde peque&ntilde;o como jugador de rugby.<br>
+                Actualmente estoy interesado en un empleo<br>
+                que me permita seguir desarroll&aacute;ndome y<br>
+                aprendiendo, pues son dos de mis motores de vida.
+            </p>
+        </div>
+    </body>
+</html>

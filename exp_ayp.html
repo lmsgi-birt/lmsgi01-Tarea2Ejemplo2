@@ -1,0 +1,89 @@
+<!-- 
+    Autor: Jakoba Gonzalez Marcaida
+    Asignatura: LMSGI
+    UD_TareaEvaluación: 01_TEv02
+    Descripción: Página 'experiencia acádemica y profesional' de un currículum web estático con formato a través de estilos CSS.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            table, th, td {
+                padding: 20px;
+                border-collapse: collapse;
+                border: 3px solid;
+            }
+
+            tr {
+                border-bottom: 10px;
+                border-color: black;
+            }
+            
+            dt {
+                color: black;
+                padding-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <ul class="topnav">
+            <li><a href="conoceme.html">CON&Oacute;CEME</a></li>
+            <li><a href="exp_ayp.html">EXPERIENCIA ACAD&Eacute;MICA Y PROFESIONAL</a></li>
+            <li><a href="index.html">INICIO</a></li> 
+        </ul>  
+
+        <!-- Bloque izquierdo de la página -->
+        <div class="column50blue">
+            <h3>EXPERIENCIA ACAD&Eacute;MICA</h3>
+            <!-- Tabla con la experiencia académica -->
+            <table>
+                <tr>
+                    <th>A&Ntilde;O</th>
+                    <th>DESCRIPCI&Oacute;N</th>
+                    <th>CENTRO</th>
+                </tr>
+                <tr>
+                    <td>2021 / Actualidad</td>
+                    <td>Desarrollo de Aplicaciones Web</td>
+                    <td><a href="https://www.birt.eus">CIFP de Aprendizajes Virtuales - BirtLH</a</td>
+                </tr>
+                <tr>
+                    <td>2009 / 2011</td>
+                    <td>Obras de Alba&ntilde;iler&iacute;a</td>
+                    <td><a href="http://www.construccionbizkaia.com">CIFP Construcci&oacute;n Bizkaia</a></td>
+                </tr>
+            </table>
+            <h3 style="padding-top: 40px;">IDIOMAS</h3>
+            <!-- Lista numerada de los idiomas -->
+            <ol>
+                <li>Euskera - Nativo</li>
+                <li>Castellano - Nativo</li>
+                <li>Ingl&eacute;s - B1, Nivel Intermedio</li>
+            </ol>
+
+            <!-- Bloque derecho de la página -->
+        </div><div class="column50green">
+            <h3 style="font: size 22pt;">EXPERIENCIA PROFESIONAL</h3>
+            <!-- Lista de definicion de la experiencia profesional -->
+            <dl>
+                <dt>2014 - 2022</dt>
+                    <dd>Producci&oacute;n</dd>
+                    <dd>Oficial de primera en empresa del sector del metal</dd>
+                <dt>2012 - 2016</dt>
+                    <dd>Producci&oacute;n</dd>
+                    <dd>Operario en empresa del secxtor tecnol&oacute;gico</dd>
+                <dt>2008 - 2012</dt>
+                    <dd>Construcci&oacute;n</dd>
+                    <dd>Empresa de alba&ntilde;iler&iacute;a exteriores y fachadas</dd>
+                <dt>2006 - 208</dt>
+                    <dd>Construcci&oacute;n</dd>
+                    <dd>Empresa de pladur y colocaci&oacute;n de tabiquer&iacute;a</dd>
+            </dl>
+        </div>
+    </body>
+</html>

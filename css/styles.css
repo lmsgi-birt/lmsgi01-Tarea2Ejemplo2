@@ -1,0 +1,121 @@
+/* 
+Autor: Jakoba Gonzalez Marcaida
+Asignatura: LMSGI
+UD_TareaEvaluación: 01_TEv02
+Descripción: Página de estilos CSS en un fichero para añadir
+en este caso a un currículum web estático con formato a través de estilos CSS. 
+*/
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* Clase para la barra de navegación */
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .topnav li {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    /* Clase para los link de la barra de navegación */
+    .topnav a {
+        display: block;
+        color: rgb(4, 99, 94);
+        text-align: center;
+        padding: 10px 40px 10px;
+        margin-top: 60px;
+        text-decoration: none;
+    }
+
+    /* Clase para que los links cambien de color al pasar el mouse por encima */
+    .topnav a:hover, .topnav a.split:hover {
+        background-color: rgb(4, 99, 94);
+        color: white;
+    }
+
+    /* Clase para el background de la página index */
+    .index_back {
+        background: url("../recursos/sl_030720_28740_16.jpg") fixed;
+        background-position: center;
+        background-size: cover;        
+    }
+
+    /* Clase para el bloque izquierdo de la página index */
+    .block-left {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 120px;
+        padding-left: 140px;
+        padding-right: 140px;
+        width: 54%;
+    }
+
+    /* Selector del id para la imagen del index */
+    .principal_img {
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-top: 20px;
+        width: 45%;
+    }
+
+    /* Columnas para la pagina conoceme */
+    .column60 {
+        display: inline-block;
+        vertical-align: top;
+        width: 60%;
+        background-color: rgb(135, 222, 208);
+        padding: 60px;
+        height: 100vh;
+    }
+
+    .column40 {
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        height: 100vh;
+        background-color: darkcyan;
+        color: white;
+        height: 100vh;
+        padding: 60px;
+    }
+
+    /* Columnas para la página exp_ayp */
+    .column50blue {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        height: 100vh;
+        padding: 60px;
+        background-color: cornflowerblue;
+        color: white;
+    }
+
+    .column50green {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;height: 100vh;
+        padding: 60px;
+        background-color: darkcyan;
+        color: white;
+        font-size: large;
+    }
+
